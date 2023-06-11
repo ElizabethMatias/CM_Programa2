@@ -217,6 +217,62 @@
                     android:textSize="@dimen/value"
                     tools:text="@string/toolDescription" />
                 <TextView
+                    android:id="@+id/tv_wand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coyotris_comic"
+                    android:paddingLeft="@dimen/paddingLeft"
+                    android:paddingRight="@dimen/paddingRight"
+                    android:paddingTop="@dimen/paddingTop"
+                    android:paddingBottom="@dimen/paddingBottom"
+                    android:text="@string/wand"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/description"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_wand_wood_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/letters_for_learners"
+                    android:paddingLeft="@dimen/paddingLeftValue"
+                    android:paddingTop="@dimen/paddingTopValue"
+                    android:paddingRight="@dimen/paddingRightValue"
+                    android:paddingBottom="@dimen/paddingBottomValue"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/value"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_wand_core_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/letters_for_learners"
+                    android:paddingLeft="@dimen/paddingLeftValue"
+                    android:paddingTop="@dimen/paddingTopValue"
+                    android:paddingRight="@dimen/paddingRightValue"
+                    android:paddingBottom="@dimen/paddingBottomValue"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/value"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_wand_length_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/letters_for_learners"
+                    android:paddingLeft="@dimen/paddingLeftValue"
+                    android:paddingTop="@dimen/paddingTopValue"
+                    android:paddingRight="@dimen/paddingRightValue"
+                    android:paddingBottom="@dimen/paddingBottomValue"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/value"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
                     android:id="@+id/tv_dataOfBirth"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

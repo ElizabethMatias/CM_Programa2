@@ -71,6 +71,28 @@ class ActivityCharacterWizardingWorldDetail : AppCompatActivity() {
                     else
                         binding.tvPatronusValue.text = "No tiene patronus"
 
+                    if (response.body()!![0].wand?.wood.toString()== "" &&
+                            response.body()!![0].wand?.core.toString()== "" &&
+                            response.body()!![0].wand?.length.toString()== "" ){
+                        binding.tvWandWoodValue.text = "No cuenta con varita"
+                        binding.tvWandCoreValue.text = ""
+                        binding.tvWandLengthValue.text =""}
+                    else if (response.body()!![0].wand != null) {
+                        if (response.body()!![0].wand?.wood.toString() != "")
+                            binding.tvWandWoodValue.text =  "Madera " +response.body()!![0].wand?.wood
+                        else
+                            binding.tvWandWoodValue.text = "Madera No definida"
+
+                        if (response.body()!![0].wand?.core.toString() != "")
+                            binding.tvWandCoreValue.text =  "Núcleo " +response.body()!![0].wand?.core
+                        else
+                            binding.tvWandCoreValue.text = "Núcleo No definido"
+
+                        if (response.body()!![0].wand?.length.toString() != "")
+                            binding.tvWandLengthValue.text =  "Longitud " +response.body()!![0].wand?.length
+                        else
+                            binding.tvWandLengthValue.text = "Longitud No definida"
+                    }
                     if (response.body()!![0].dateOfBirth != null)
                         binding.tvDataOfBirthValue.text = response.body()!![0].dateOfBirth ?: ""
                     else

@@ -18,6 +18,7 @@
     <string name="ancestry">Sangre</string>
     <string name="alive">Status</string>
     <string name="patronus">Patronus</string>
+    <string name="wand">Varita</string>
     <string name="dataOfBirth">Nacimiento</string>
 
 </resources>
