@@ -35,6 +35,7 @@ class ActivityCharacterWizardingWorldDetail : AppCompatActivity() {
                     response: Response<ArrayList<character_Wizarding_World_Detail>>
                 ) {
                     binding.pbCon.visibility = View.GONE
+                    binding.tvTitle.text = response.body()!![0].name.toString()
                     if(response.body()!![0].wizard.toString() != "false")
                         if(response.body()!![0].gender.toString() == "male")
                             binding.tvWizardValue.text = "Mago"
@@ -78,15 +79,11 @@ class ActivityCharacterWizardingWorldDetail : AppCompatActivity() {
                     if (response.body()!![0].image != "") {
                         Glide.with(this@ActivityCharacterWizardingWorldDetail)
                             .load(response.body()!![0].image)
-                            .placeholder(R.drawable.profile)
-                            .error(R.drawable.profile)
                             .into(binding.ivImage)
                     }
                     else {
                         Glide.with(this@ActivityCharacterWizardingWorldDetail)
                             .load(R.drawable.profile)
-                            .placeholder(R.drawable.profile)
-                            .error(R.drawable.profile)
                             .into(binding.ivImage)
                     }
                 }

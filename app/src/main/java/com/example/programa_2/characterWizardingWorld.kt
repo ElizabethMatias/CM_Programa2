@@ -52,7 +52,7 @@ class characterWizardingWorld : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.musica1)
+        mediaPlayer = MediaPlayer.create(this, R.raw.music2)
         mediaPlayer.isLooping = true
         mediaPlayer.start()
     }
