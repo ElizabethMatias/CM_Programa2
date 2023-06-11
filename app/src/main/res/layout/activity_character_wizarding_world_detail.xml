@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_detail"
+    tools:context=".ActivityCharacterWizardingWorldDetail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="40dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coyotris_comic"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    tools:text="@string/toolTitle" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/iv_image"
+                    android:layout_width="278dp"
+                    android:layout_height="198dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:riv_corner_radius="10dp"
+                    tools:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/tv_wizard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coyotris_comic"
+                    android:paddingLeft="@dimen/paddingLeft"
+                    android:paddingRight="@dimen/paddingRight"
+                    android:paddingTop="@dimen/paddingTop"
+                    android:paddingBottom="@dimen/paddingBottom"
+                    android:text="@string/wizard"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/description"
+                    tools:text="@string/toolDescription" />
+
+
+                <TextView
+                    android:id="@+id/tv_wizard_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/letters_for_learners"
+                    android:paddingLeft="@dimen/paddingLeftValue"
+                    android:paddingRight="@dimen/paddingRightValue"
+                    android:paddingTop="@dimen/paddingTopValue"
+                    android:paddingBottom="@dimen/paddingBottomValue"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/value"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_species"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coyotris_comic"
+                    android:paddingLeft="@dimen/paddingLeft"
+                    android:paddingRight="@dimen/paddingRight"
+                    android:paddingTop="@dimen/paddingTop"
+                    android:paddingBottom="@dimen/paddingBottom"
+                    android:text="@string/species"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/description"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_species_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/letters_for_learners"
+                    android:paddingLeft="@dimen/paddingLeftValue"
+                    android:paddingRight="@dimen/paddingRightValue"
+                    android:paddingTop="@dimen/paddingTopValue"
+                    android:paddingBottom="@dimen/paddingBottomValue"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/value"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_house"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coyotris_comic"
+                    android:paddingLeft="@dimen/paddingLeft"
+                    android:paddingRight="@dimen/paddingRight"
+                    android:paddingTop="@dimen/paddingTop"
+                    android:paddingBottom="@dimen/paddingBottom"
+                    android:text="@string/house"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/description"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_house_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/letters_for_learners"
+                    android:paddingLeft="@dimen/paddingLeftValue"
+                    android:paddingRight="@dimen/paddingRightValue"
+                    android:paddingTop="@dimen/paddingTopValue"
+                    android:paddingBottom="@dimen/paddingBottomValue"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/value"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_ancestry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coyotris_comic"
+                    android:paddingLeft="@dimen/paddingLeft"
+                    android:paddingRight="@dimen/paddingRight"
+                    android:paddingTop="@dimen/paddingTop"
+                    android:paddingBottom="@dimen/paddingBottom"
+                    android:text="@string/ancestry"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/description"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_ancestry_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/letters_for_learners"
+                    android:paddingLeft="@dimen/paddingLeftValue"
+                    android:paddingTop="@dimen/paddingTopValue"
+                    android:paddingRight="@dimen/paddingRightValue"
+                    android:paddingBottom="@dimen/paddingBottomValue"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/value"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_alive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coyotris_comic"
+                    android:paddingLeft="@dimen/paddingLeft"
+                    android:paddingRight="@dimen/paddingRight"
+                    android:paddingTop="@dimen/paddingTop"
+                    android:paddingBottom="@dimen/paddingBottom"
+                    android:text="@string/alive"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/description"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_alive_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/letters_for_learners"
+                    android:paddingLeft="@dimen/paddingLeftValue"
+                    android:paddingRight="@dimen/paddingRightValue"
+                    android:paddingTop="@dimen/paddingTopValue"
+                    android:paddingBottom="@dimen/paddingBottomValue"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/value"
+                    tools:text="Description" />
+
+                <TextView
+                    android:id="@+id/tv_patronus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coyotris_comic"
+                    android:paddingLeft="@dimen/paddingLeft"
+                    android:paddingRight="@dimen/paddingRight"
+                    android:paddingTop="@dimen/paddingTop"
+                    android:paddingBottom="@dimen/paddingBottom"
+                    android:text="@string/patronus"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/description"
+                    tools:text="@string/toolDescription" />
+
+                <TextView
+                    android:id="@+id/tv_patronus_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/letters_for_learners"
+                    android:paddingLeft="@dimen/paddingLeftValue"
+                    android:paddingRight="@dimen/paddingRightValue"
+                    android:paddingTop="@dimen/paddingTopValue"
+                    android:paddingBottom="@dimen/paddingBottomValue"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/value"
+                    tools:text="@string/toolDescription" />
+                <TextView
+                    android:id="@+id/tv_dataOfBirth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coyotris_comic"
+                    android:paddingLeft="@dimen/paddingLeft"
+                    android:paddingRight="@dimen/paddingRight"
+                    android:paddingTop="@dimen/paddingTop"
+                    android:paddingBottom="@dimen/paddingBottom"
+                    android:text="@string/dataOfBirth"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/description"
+                    tools:text="@string/toolDescription" />
+                <TextView
+                    android:id="@+id/tv_dataOfBirth_Value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/letters_for_learners"
+                    android:paddingLeft="@dimen/paddingLeftValue"
+                    android:paddingRight="@dimen/paddingRightValue"
+                    android:paddingTop="@dimen/paddingTopValue"
+                    android:paddingBottom="@dimen/paddingBottomValue"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/value"
+                    tools:text="@string/toolDescription" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/paddingLeftValue"
+                    android:paddingRight="@dimen/paddingRightValue"
+                    android:paddingTop="@dimen/paddingTopValue"
+                    android:paddingBottom="50dp"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/pbCon"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="311dp"
+        android:layout_height="223dp"
+        android:indeterminateDrawable="@drawable/snitch"
+        android:indeterminateDuration="1500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

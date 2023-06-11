@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Programa_2</string>
+
+    <string name="title_intro">Ejercicio 2</string>
+    <string name="author_name" translatable="false">Cruz Matias Yuridia Elizabeth</string>
+    <string name="version_string">Versión 1.0.0</string>
+
+    <!--div_pers-->
+    <string name="name_Character">Personaje</string>
+    <string name="name_Actor">Actor</string>
+
+    <!--characer_wizarding_world-->
+    <string name="toolTitle">Titulo</string>
+    <string name="toolDescription">Descripción</string>
+    <string name="wizard">Mago/Bruja</string>
+    <string name="species">Especie</string>
+    <string name="house">Casa</string>
+    <string name="ancestry">Sangre</string>
+    <string name="alive">Status</string>
+    <string name="patronus">Patronus</string>
+    <string name="dataOfBirth">Nacimiento</string>
+
+</resources>

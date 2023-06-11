@@ -1,0 +1,34 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--input Text-->
+    <!-- loading-->
+    <dimen name="title1">80sp</dimen>
+    <dimen name="title2">40sp</dimen>
+    <dimen name="title3">30sp</dimen>
+
+    <!-- div_pers-->
+    <dimen name="title_c1">30sp</dimen>
+    <dimen name="title_a2">20sp</dimen>
+
+    <!--activity_character_wizarding_world-->
+    <dimen name="title_cw1">20sp</dimen>
+
+    <!--activity_character_wizarding_world_detail-->
+    <dimen name="paddingLeft">15sp</dimen>
+    <dimen name="paddingRight">15sp</dimen>
+    <dimen name="paddingTop">25sp</dimen>
+    <dimen name="paddingBottom">10sp</dimen>
+    <dimen name="paddingLeftValue">30sp</dimen>
+    <dimen name="paddingRightValue">10sp</dimen>
+    <dimen name="paddingTopValue">10sp</dimen>
+    <dimen name="paddingBottomValue">10sp</dimen>
+    <dimen name="description">35sp</dimen>
+    <dimen name="value">45sp</dimen>
+
+    <!--main-->
+    <dimen name="title_m1">350sp</dimen>
+    <dimen name="title_m2">700sp</dimen>
+</resources>
